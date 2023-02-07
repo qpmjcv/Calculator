@@ -1,0 +1,60 @@
+main{
+    
+    background-color: rgb(51, 51, 51);
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+}
+
+button{
+    border: 1px solid rgb(122, 122, 122);
+    width: 100px;
+    height: 100px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#igual{
+    width: 300px;
+    background-color: rgb(135, 186, 252);
+    border: 1 cornflowerblue;
+}
+
+button:hover {
+    filter: brightness(90%);
+}
+
+button:active {
+    background-color: rgb(46, 154, 255);
+}
+
+.display{
+    grid-column: 1 / -1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 400px;
+    height: 145px;
+    text-align: end;
+    font-size: 50px;
+    background-color: #fff;
+    word-break: break-all;
+}
+
+.calculadora{
+    box-shadow: 15px 10px 10px 5px;
+    width: 400px;
+}
